@@ -2,11 +2,11 @@ import path from "path";
 import fs from "fs";
 import Link from "next/link";
 
-export default async function SubjectPage({
-  params,
-}: {
-  params: { sem: string; subject: string };
-}) {
+interface SelectorProps {
+  params: Promise<{ sem: string; subject: string }>;
+}
+
+export default async function SubjectPage({ params }: SelectorProps) {
   const { sem, subject } = await params;
   const formattedSubject = subject.replace(/-/g, " ");
 

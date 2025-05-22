@@ -3,7 +3,7 @@ import path from "path";
 import Link from "next/link";
 
 interface SubjectSelectorProps {
-  params: { sem: string };
+  params: Promise<{ sem: string }>;
 }
 
 export default async function SubjectSelector({

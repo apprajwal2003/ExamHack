@@ -2,11 +2,11 @@ import path from "path";
 import fs from "fs/promises";
 import Link from "next/link";
 
-export default async function NotesPage({
-  params,
-}: {
-  params: { sem: string; subject: string };
-}) {
+interface SelectorProps {
+  params: Promise<{ sem: string; subject: string }>;
+}
+
+export default async function NotesPage({ params }: SelectorProps) {
   const { sem, subject } = await params;
   const folderPath = path.join(process.cwd(), "public", "notes", sem, subject);
 
