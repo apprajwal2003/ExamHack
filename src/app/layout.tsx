@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "@/components/Footer"; // adjust the path if needed
 
 import "./globals.css";
