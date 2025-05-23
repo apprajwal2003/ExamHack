@@ -13,7 +13,7 @@ export default function Footer() {
           </a>
         </p>
         <p>
-          Made with <span className="text-red-500">❤️</span>
+          Made with <span className="text-red-500">☠️</span>
         </p>
       </div>
     </footer>
