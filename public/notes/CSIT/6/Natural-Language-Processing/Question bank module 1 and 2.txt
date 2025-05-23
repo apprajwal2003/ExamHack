@@ -1,0 +1,41 @@
+Question bank
+ 
+1) What is NLP? Why do we study NLP, and what are its applications?
+2) Define NLP. List out the various merits and demerits of using NLP for real-world applications.
+3) List and explain Useful string methods: Operations on strings in addition to the string tests.
+4) What is tokenization? Provide an explanation with a relevant example.
+5) Write a Python code to Accessing Text from the Web for Text number 2554 is an English translation of Crime and Punishment, from Project Gutenberg.
+6) What do you understand by semantic analysis? What are the techniques used for semantic analysis?
+7) Write a python code to access a favorite web page and extract some text from it. For example, access a weather site and extract the forecast top temperature for your town or city today.
+8) What Is Unicode? Discuss with a neat diagram for Text Processing with Unicode decoding and encoding
+9) What is Pronoun Resolution in Automatic natural language understanding? Explain with examples.
+10)What are the main functions of NLTK's FreqDist module? Explain any three functions with relevant Python examples.
+11) Use the Porter Stemmer to normalize the below text, calling the stemmer on each word and demonstrate using python code.
+	raw = """DENNIS: Listen, strange women lying in ponds distributing swords ... is no basis for a system of government. Supreme executive power derives from ... a mandate from the masses, not from some farcical aquatic ceremony."""
+12)Write a Python program using the NLTK library to implement: Stemming, POS Tagging, Lemmatization
+13) Explain Useful Applications of Regular Expressions and demonstrate with own example using python code.
+14)What are Lists in python? Develop a list with five members and perform the following tasks: 
+15) Display the content of the list in reverse order   1)    find the Length of the list	2) Display the list of first two elements	 3) Append the new word “REVA” to the list.
+16)Consider the following list in Python: 
+         >>> sent1 = ['REVA', 'me', 'REVA', '.', ‘CIT’,’CIT’]
+Develop python code to compute the  length, lexical diversity, and percentage of the list ‘sent1’
+17)What do you understand by NLTK in Natural Language Processing? List the some libraries of the NLTK package that are often used in NLP and demonstration how to download and Counting number of Vocabulary of any text file.
+18)What is Bigrams?, Demonstrate using NLTK provides built-in support to find bigram for the following list.
+Str1=”An apple per day keep a doctor away”.
+What are strings? What operations can be performed on strings in the context of NLP? Provide examples.
+19)What are Spoken Dialogue Systems? Discuss in brief a Simple pipeline architecture for a spoken dialogue system with its application.
+20) Explain Natural Language Understanding (NLU) technologies with relevant examples where applicable.
+21) Define and explain the following terms with relevant examples:  Bigrams, Collocation, Conditional Frequency Distribution.
+22)Develop a python code to access a favorite web page and extract some text from it. For example, access a weather site and extract the forecast top temperature for your town or city today.
+Demonstrate how to create dictionaries in Python, convert a dictionary into a list, and sort it.
+23)Describe the class of strings matched by the following regular expressions: 
+1. [a-zA-Z]+                              2. [A-Z][a-z]* 
+3. p[aeiou]{,2}t                       4. \d+(\.\d+)?        5.  \w+|[^\w\s]
+24)Discuss POS tagging with example and demonstrate Tokenize and tagging using python code for the following sentence: “They wind back the clock, while we chase after the wind”. List the simplified parts-of-speech are involved?
+25) Define "sent" as the list ['Call', 'me', 'Ishmael', 'Vishwa'] and "sent1" as ['The', 'family', 'of', 'Dashwood', 'had', 'long', 'been', 'settled', 'in', 'Sussex'].Write a Python program to: Concatenate the two lists and Calculate the length of both sentences. 
+26)Discuss about Machine learning technique classification. List and explain different types of classification with an example for each.
+27)Write a Python function: This function tries to work out the plural form of any English noun; the keyword def (define) is followed by the function name, then a parameter inside parentheses, and a colon; the body of the function is the indented block of code; it tries to recognize patterns within the word and process the word accordingly; e.g., if the word ends with y, delete the y and add ies.
+28) Given two documents, each containing short sentences as shown below, compute their similarity using the TF-IDF method based on following documents, Document 1: "The dog is in the garden."
+Document 2: "A dog runs through the garden."
+29) What is Machine Learning? Describe two ML models that can effectively classify text reviews as positive or negative.
+30)Explain colocation with own example with python code.
